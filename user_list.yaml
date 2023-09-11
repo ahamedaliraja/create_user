@@ -1,0 +1,8 @@
+---
+- users:
+  - name: bobby
+    job: john
+  - name: smith
+    job: steven
+  - name: warner
+    job: david
