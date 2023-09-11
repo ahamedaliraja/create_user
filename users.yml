@@ -7,8 +7,8 @@
   tasks:
     - name: User creation play
       ansible.builtin.user:
-        name: "{{ name }}"
-        comment: "{{ job }}"
+        name: "{{ item.name }}"
+        comment: "{{ item.job }}"
         group: devops
         state: present
-
+      loop: "{{ users }}"
