@@ -1,6 +1,6 @@
 ---
 - name: User creation
-  hosts: prod
+  hosts: dev
   become: yes
   vars_files:
     user_list.yaml
