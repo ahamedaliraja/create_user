@@ -8,6 +8,7 @@
     - name: User creation play
       ansible.builtin.user:
         name: "{{ item.name }}"
-        group: "{{ item.job }}"
+        comment: "{{ item.job }}"
+        group: devops
         state: present
       loop: "{{ users }}"
