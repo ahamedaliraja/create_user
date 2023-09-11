@@ -1,8 +1,8 @@
 ---
 - users:
   - name: bobby
-    job: john
+    job: admin
   - name: smith
-    job: steven
+    job: tester
   - name: warner
-    job: david
+    job: developer
