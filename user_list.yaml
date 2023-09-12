@@ -6,3 +6,5 @@
     job: tester
   - name: warner
     job: developer
+  - name: john
+    job: developer
